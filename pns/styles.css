@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+.topic {
+        margin-left: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 50px;
+    }
+
+
+.text {
+    margin: 30px;
+    font-size: 40px;
+}
+.container
+ {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+header {
+    text-align: center;    
+}
+.shape1{
+    background-color:rgb(106, 119, 233);
+    width: 100%;
+    height: 2.5px;
+}
+
+.shape{
+    background-color:rgb(106, 119, 233);
+    width: 100%;
+    height:35px;
+
+}
+.shape2{
+    background-color:rgb(106, 119, 233);
+    width: 100%;
+    height: 50px;
+}
+.banner {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+.picture1 {
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    }
+
+.banner1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    background-color:rgb(106, 119, 233);
+    width: 100%;
+    height: 50px;
+    padding: 15px 0;
+    color: white;
+    
+}
+.shape3{
+    background-color:rgb(106, 119, 233);
+    width: 100%;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+.grupa {
+    background-image: url("grupa.JPG");
+}
+.picture2 {
+    background-size: contain;
+    width: 100%;
+}

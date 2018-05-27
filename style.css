@@ -1,0 +1,73 @@
+.first {
+    background: blue;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font: 35px cursive; 
+    padding: 15px 0;
+}
+.picture {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    font: 25px cursive; 
+}
+.unnamed{
+    background-image: url("grupa.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+    margin: 15px;
+}
+.herb{
+    background-image: url("team1.JPG")
+}
+.emotka{
+    background-image: url("team2.JPG")
+}
+.karta{
+    background-image: url("team3.JPG")
+}
+.gwiazda{
+    background-image: url("team4.JPG")
+}
+.head {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+}
+.picture-container{
+    width: 24vw;
+}
+.name {
+    text-align: center;
+}
+@media screen and (max-width: 992px) {
+    main{
+        flex-direction: column;
+    }
+}
+.homebutton{
+    /* background-image: url("Home.png"); */
+    background-position: right;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+.menu{
+    background: red;
+    color: white;
+    font: 25px cursive;
+    padding: 10px 0;
+    /* background-position: center; */
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
