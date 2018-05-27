@@ -69,3 +69,27 @@ img.ostatni {
     margin-top: 50px;
     margin-bottom: 75px;
 }
+
+
+@media screen and (max-width: 920px){
+	body {
+		margin-left: 0;
+	}
+
+	nav {
+		width: 100vw;
+		height: 100px;
+	}
+	.nawigacja li {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.nawigacja {
+		list-style: none;
+		padding: 10px 10px;
+	}
+	img.zerowy {
+		width: 100%;
+	}
+}
